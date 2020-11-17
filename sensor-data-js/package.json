@@ -1,0 +1,17 @@
+{
+  "name": "sensor-data-js",
+  "version": "1.0.0",
+  "description": "Parse sensor data using js",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Thompson",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parser": "2.3.3",
+    "fs-extra": "^9.0.1"
+  }
+}
